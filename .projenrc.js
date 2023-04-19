@@ -5,7 +5,7 @@ const project = new RustProject({
    cargo: {
       package: {
          authors: ["user <user@mail.com>"],
-         version: 'version',
+         version: '1.0.0',
          edition: "2021",
       },
       dependencies: {

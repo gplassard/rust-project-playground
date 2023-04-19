@@ -8,7 +8,7 @@
     ".projen/deps.json",
     ".projen/files.json",
     ".projen/tasks.json",
-    "cargo.toml",
+    "Cargo.toml",
     "cliff.toml",
     "scripts/release.sh"
   ],

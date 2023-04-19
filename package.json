@@ -1,0 +1,10 @@
+{
+  "name": "rust-project-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@gplassard/projen-extensions": "^0.0.40",
+    "projen": "^0.71.17"
+  }
+}

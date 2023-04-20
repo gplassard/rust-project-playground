@@ -6,4 +6,4 @@ dependencies = { }
 authors = [ "user <user@mail.com>" ]
 version = "version"
 edition = "2021"
-name = "rust-project"
+name = "rust-project-playground"

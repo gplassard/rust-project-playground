@@ -4,12 +4,10 @@ name: pull-request-lint
 on:
   pull_request_target:
     types:
-      - labeled
       - opened
+      - edited
       - synchronize
       - reopened
-      - ready_for_review
-      - edited
     branches:
       - main
 jobs:

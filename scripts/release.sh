@@ -4,7 +4,7 @@ set -ex
 if [ -n "$1" ]; then
     yarn install --frozen-lockfile
     # update the version
-    yarn version --$1
+    yarn version --no-git-tag-version --$1
     yarn projen
     # will update Cargo.lock
     cargo check

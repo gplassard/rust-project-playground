@@ -8,7 +8,7 @@ node_modules/
 *.iml
 .vscode
 .DS_Store
-!/cargo.toml
+!/Cargo.toml
 target
 !/scripts/release.sh
 !/cliff.toml

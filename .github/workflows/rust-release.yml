@@ -53,8 +53,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: target/release/rust-project
-          asset_name: rust-project
+          asset_path: target/release/rust-project-playground
+          asset_name: rust-project-playground
           asset_content_type: application/zip
       - name: Generate full changelog
         uses: orhun/git-cliff-action@v1
